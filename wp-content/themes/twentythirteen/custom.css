@@ -1,0 +1,114 @@
+@charset  "UTF-8";
+
+body {
+	font-size: 14px;
+	color: #333;
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+.site {
+	max-width: none;
+	border: 0;
+}
+
+.navbar {
+	display: none;
+}
+
+.site-header {
+	background: url(http://wocker.dev/wp-content/uploads/2015/04/150415_index_031.png) no-repeat center center;
+	background-size: contain;
+	height: 630px;
+}
+
+.site-header .home-link {
+	max-width: none;
+	min-height: 0;
+	display: block;
+	background: #f4c841;
+	height: 60px;
+	position: relative;
+}
+
+.site-header .home-link:hover,
+.site-header .home-link:hover .site-title {
+	text-decoration: none;
+}
+
+.site-title {
+	max-width: 960px;
+	margin: auto;
+	font-size: 30px;
+	padding: 0;
+	line-height: 60px;
+	color: #fff !important;
+	font-family: "Open Sans", sans-serif;
+}
+
+.site-description {
+	position: absolute;
+	top: 240px;
+	left: 50%;
+	margin-left: -420px;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+#post-8 {
+	position: absolute;
+	top: -375px;
+	left: 50%;
+	margin-left: -530px;
+	text-align: center;
+}
+
+#post-8 .entry-title {
+	font-size: 18px;
+	margin-bottom: 50px;
+}
+
+.site-copy {
+	font-size: 16px;
+	line-height: 1.75;
+}
+
+@media (max-width: 960px) {
+	.site-header {
+		height: 370px;
+	}
+
+	.site-header .home-link {
+		height: 48px;
+	}
+
+	.site-title {
+		line-height: 48px;
+		font-size: 24px;
+	}
+
+	.site-description {
+		margin-left: -300px;
+		top: 100px;
+		font-size: 32px;
+	}
+
+	#post-8 {
+		text-align: left;
+		top: -260px;
+		margin-left: -300px;
+	}
+
+	#post-8 .entry-title {
+		font-size: 14px;
+		margin-bottom: 30px;
+	}
+
+	.site-copy {
+		font-size: 12px;
+	}
+}
